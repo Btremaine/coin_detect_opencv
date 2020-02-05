@@ -140,8 +140,8 @@ def getDimePennyDecision(img, circ):
     s = metric[1]
     
     penny = True
-    #if (1.10 * h -s + 38 > 0):
-    if (6.4 * h - s - 75 > 0):
+    if (1.10 * h -s + 38 > 0):
+    #if (6.4 * h - s - 75 > 0):
         penny = False
            
     return penny
@@ -204,7 +204,7 @@ if __name__ == '__main__':
      im = cv2.imread('..\images/new_blk.jpg')
      #im = cv2.imread('..\images/compare_blk.jpg')
      im = cv2.imread('..\images/test_final2.jpg')
-     #im = cv2.imread('..\images/non-touch.jpg')
+     im = cv2.imread('..\images/non-touch.jpg')
      #im = cv2.imread('..\images\ID-1.jpg')
      #im = cv2.imread('..\images/velvBkgd.jpg')
      logging.info("still image")
