@@ -16,7 +16,7 @@ Watershed files:
 2. velvBkgd.zip (jpg image)
 
 Directory structure
-images 
-python ----
-        Results
+1. images 
+2. python
+2a.       Results
 
