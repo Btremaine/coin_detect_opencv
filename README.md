@@ -14,3 +14,9 @@ Camera calibration:
 Watershed files:
 1. Watershed.py
 2. velvBkgd.zip (jpg image)
+
+Directory structure
+images 
+python ----
+        Results
+
